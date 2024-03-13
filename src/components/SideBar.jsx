@@ -38,7 +38,7 @@ export default function ProjectSideBar() {
       <div className="bg-gray-900 w-full lg:w-1/4">
         <aside className="flex flex-col w-full bg-gray-900 text-white px-4 py-6">
           <h2 className="mb-8 font-bold uppercase text-white md:text-xl">
-            Your Projects
+            Cryptocurrency Coin Catalog
           </h2>
           {loading ? (
             <div>Loading...</div>
