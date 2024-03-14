@@ -8,7 +8,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Crypto labs is a simple react app for track a coin with some feature like search or Trading view as a chart.
+Crypto labs is a simple react app for track a coin with some feature like list trending coins  or Trading view as a chart.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
