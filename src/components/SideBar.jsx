@@ -6,7 +6,7 @@ export default function ProjectSideBar() {
   const [currencies, setCurrencies] = useState([{}]);
   const [selectedCurrency, setSelectedCurrency] = useState(null);
   const [coin, setCoinData] = useState(null);
-  const [loading, setLoading] = useState(true); // Add loading state
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const getCurrencies = async () => {
@@ -16,7 +16,7 @@ export default function ProjectSideBar() {
       } catch (error) {
         console.error("Error fetching currencies:", error);
       } finally {
-        setLoading(false); // Set loading to false after fetching
+        setLoading(false);
       }
     };
     getCurrencies();
@@ -38,7 +38,7 @@ export default function ProjectSideBar() {
       <div className="bg-gray-900 w-full lg:w-1/4">
         <aside className="flex flex-col w-full bg-gray-900 text-white px-4 py-6">
           <h2 className="mb-8 font-bold uppercase text-white md:text-xl">
-            Cryptocurrency Coin Catalog
+            Crypto Catalog
           </h2>
           {loading ? (
             <div>Loading...</div>
@@ -75,7 +75,7 @@ export default function ProjectSideBar() {
         </aside>
       </div>
       {/* Chart */}
-      <div className="w-full lg:w-3/4 h-full bg-gray-900">
+      <div className="w-full lg:w-4/4 h-full bg-gray-900">
         <div className="h-full overflow-y-auto">
           {coin !== null && <Coindata coin={coin} />}
           {coin === null && <Coindata coin={{ symbol: "btc" }} />}

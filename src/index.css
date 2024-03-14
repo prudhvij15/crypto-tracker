@@ -23,3 +23,11 @@ code {
   }
 }
 
+.trending-coin {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.trending-coin-enter-done {
+  opacity: 1;
+}
