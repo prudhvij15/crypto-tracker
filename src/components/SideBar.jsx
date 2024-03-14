@@ -14,7 +14,7 @@ export default function ProjectSideBar() {
         const data = await getAllCurrencies();
         setCurrencies(data);
       } catch (error) {
-        console.error("Error fetching currencies:", error);
+        // console.error("Error fetching currencies:", error);
       } finally {
         setLoading(false);
       }
@@ -27,9 +27,7 @@ export default function ProjectSideBar() {
       setSelectedCurrency(id);
       const data = await getCoinData(id);
       setCoinData(data);
-    } catch (error) {
-      console.error("Error fetching coin data:", error);
-    }
+    } catch (error) {}
   };
 
   return (
