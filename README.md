@@ -1,8 +1,8 @@
 ![GitHub Image](./public/demo.png/)
 
-<h3 align="center">Crypto Labs</h3>
+<h3 align="left">Crypto Labs</h3>
 
-<p align="center"> <b>Crypto Labs</b> is a Cryptocurrency tracker with React js + TradngView gadget
+<p align="left"> <b>Crypto Labs</b> is a Cryptocurrency tracker with React js + TradngView gadget
     <br> 
 </p>
 
