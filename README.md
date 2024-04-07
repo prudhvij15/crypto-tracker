@@ -8,7 +8,19 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Crypto labs is a simple react app for track a coin with some feature like list trending coins  or Trading view as a chart.
+Crypto labs is a simple react app for track a coin with some feature like list trending coins or Trading view as a chart.
+
+## Run:
+
+cd /project_folder
+
+## Run docker build Command
+
+        docker build -t react-app .
+
+## Run docker
+
+        docker run -p 3000:3000 react-app
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
